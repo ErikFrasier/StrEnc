@@ -1,4 +1,9 @@
 #!/usr/bin/python
+# Author: Erik Frasier
+# Email: Erik.Frasier@KnowledgeCG.com
+# Date: January 22, 2014
+# Purpose: This script takes in a string and encodes it using various useful encoding methods
+#	original -> URL, double URL, String.fromCharCode,Base64, Ascii Hex, and Hex 	
 
 import sys,getopt,urllib,HTMLParser,base64,binascii
 
