@@ -5,9 +5,7 @@ StrEnc is an extremely simple script that simply encodes a user supplied string 
 StrEnc v0.1
 
 -? usage
-
 -h help/usage
-
 -s "\<string to be encoded\>" (note: quotes required)
 
 Example:
