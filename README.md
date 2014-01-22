@@ -6,10 +6,10 @@ StrEnc v0.1
 
 -? usage
 -h help/usage
--s "<string to be encoded>" (note: quotes required)
+-s "\<string to be encoded\>" (note: quotes required)
 
 Example:
 
-python StrEnc.py -s "<script>alert(1)</script>"
+python StrEnc.py -s "\<script\>alert(1)\</script\>"
 
 Questions? Erik.Frasier@knowledgecg.com
