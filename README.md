@@ -13,6 +13,6 @@ StrEnc v0.1<br>
 <br>
 Example:<br>
 <br>
-Python StrEnc.py -s "\<script>alert(1)\</script>"<br>
+python StrEnc.py -s "\<script>alert(1)\</script>"<br>
 <br>
 Questions? Erik.Frasier@knowledgecg.com
