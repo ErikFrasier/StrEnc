@@ -12,10 +12,10 @@ StrEnc v0.1<br>
 -s "\<string to be encoded\>" (note: quotes required)<br>
 <br>
 Example:<br>
-/$ ./StrEnc.py -s "/<script>alert(1)/</script>"<br>
-/=================================================================================================================<br>
-Input string to be encoded: 	/<script>alert(1)/</script><br>
-/=================================================================================================================<br>
+\$ ./StrEnc.py -s "\<script>alert(1)\</script>"<br>
+\=================================================================================================================<br>
+Input string to be encoded: 	\<script>alert(1)\</script><br>
+\=================================================================================================================<br>
 URL encoding: 			%3Cscript%3Ealert%281%29%3C%2Fscript%3E<br>
 Double URL encoding:	 	%253Cscript%253Ealert%25281%2529%253C%252Fscript%253E<br>
 String.fromCharCode: 		String.fromCharCode(60,115,99,114,105,112,116,62,97,108,101,114,116,40,49,41,60,47,115,99,114,105,112,116,62)<br>
